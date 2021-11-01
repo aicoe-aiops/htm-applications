@@ -1,7 +1,9 @@
-project-template
-==============================
+# HTM-Applications
 
-template for the team to use
+The Hierarchical Temporal Memory (HTM) algorithm is based on the well understood principles and core building blocks of the [Thousand Brains Theory](https://link.springer.com/content/pdf/10.1007/s42452-021-04715-0.pdf), which is the core-model based, sensory-motor framework of intelligence putting together the neuroscience research developed at [Numenta](https://numenta.com/) founded by Jeff Hawkings. It aims to reflect the functioning of the human cortex. It focuses on three main properties: _sequence learning_, _continual learning_, and _sparse distributed representations_.
+
+This project aims to explore the applications of HTM, specifically its [Anomaly Detection](https://numenta.com/assets/pdf/whitepapers/Numenta%20White%20Paper%20-%20Science%20of%20Anomaly%20Detection.pdf) technique, in the AIOps domain.
+
 
 Project Organization
 ------------
