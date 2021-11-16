@@ -42,7 +42,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"HTM-applications"
+project = "HTM-applications"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -185,8 +185,8 @@ latex_documents = [
     (
         "index",
         "HTM-applications.tex",
-        u"HTM-applications Documentation",
-        u"aicoe-aiops",
+        "HTM-applications Documentation",
+        "aicoe-aiops",
         "manual",
     ),
 ]
@@ -220,8 +220,8 @@ man_pages = [
     (
         "index",
         "HTM-applications",
-        u"HTM-applications Documentation",
-        [u"aicoe-aiops"],
+        "HTM-applications Documentation",
+        ["aicoe-aiops"],
         1,
     )
 ]
@@ -239,8 +239,8 @@ texinfo_documents = [
     (
         "index",
         "HTM-applications",
-        u"HTM-applications Documentation",
-        u"aicoe-aiops",
+        "HTM-applications Documentation",
+        "aicoe-aiops",
         "HTM-applications",
         "HTM and its applications",
         "Miscellaneous",
