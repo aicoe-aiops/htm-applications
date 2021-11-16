@@ -7,7 +7,7 @@ The project aims to explore the applications of HTM primarily focussing on [**An
 The related upstream repo for the projects are:
 
 - [**Numenta Anomaly Benchmark**](https://github.com/numenta/NAB)
-- [**Nupic**](https://github.com/numenta/nupic)
+- [**htm.core**](https://github.com/htm-community/htm.core)
 
 # Contact
 
