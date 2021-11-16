@@ -15,16 +15,4 @@ The so-called Belief in the Fig. 2 is the probability array of Cause, as shown i
 [HTM](https://web.archive.org/web/20110721225535/http://blog.mohammadzadeh.info/media/blogs/snf/Resources/HTM/Numenta_HTM_Concepts.pdf?mtime=1296775021) structure!
 ```
 
-As mentioned in Thousand Brains Theory, each node (Column) will learn a complete world view. But the nodes at the bottom will only learn the simplest objects, and the nodes on the upper level eill learn the more complex composite objects. This also means that the number of layers required by the HTM is positively related to the complexity of the object to be recognized. 
-
-
-
-
-
-
-
-
-
-
-
-
+As mentioned in Thousand Brains Theory, each node (Column) will learn a complete world view. But the nodes at the bottom will only learn the simplest objects, and the nodes on the upper level eill learn the more complex composite objects. This also means that the number of layers required by the HTM is positively related to the complexity of the object to be recognized.

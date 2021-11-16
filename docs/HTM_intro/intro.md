@@ -11,4 +11,4 @@ The related upstream repo for the projects are:
 
 # Contact
 
-This project is maintained as part of the AIOps teams in Red Hat's AI CoE as part of the office of the CTO.  
+This project is maintained as part of the AIOps teams in Red Hat's AI CoE as part of the office of the CTO.

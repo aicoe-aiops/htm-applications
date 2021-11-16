@@ -1,16 +1,16 @@
 # Properties of HTM
 
-## Sparse Distributed Representations 
+## Sparse Distributed Representations
 
 [Sparse distributed representations](https://numenta.com/assets/pdf/biological-and-machine-intelligence/BaMI-SDR.pdf) is a core data structure of HTM. A complete mathematical explanations is in this [paper](https://arxiv.org/pdf/1503.07469.pdf).
 
-The reason why it is termed as Sparse is because of the fact that only few neurons fire when a cognitive task is performed i.e. if you take a snapshot of neurons in a brain, it is highly likely that you will only see less than ~2% neurons in an active state. An SDR consists of thousands of bits where at any point in time a small percentage of the bits are 1's and the rest are 0's. The bits in SDR corresponds to neurons in the brain, a 1 being a relatively active neuron and a 0 being a relatively inactive neuron. 
+The reason why it is termed as Sparse is because of the fact that only few neurons fire when a cognitive task is performed i.e. if you take a snapshot of neurons in a brain, it is highly likely that you will only see less than ~2% neurons in an active state. An SDR consists of thousands of bits where at any point in time a small percentage of the bits are 1's and the rest are 0's. The bits in SDR corresponds to neurons in the brain, a 1 being a relatively active neuron and a 0 being a relatively inactive neuron.
 
 ```{figure} images/sdr.png
 ---
 ---
 Sparse distributed representations.
-```  
+```
 
 ## Encoding
 
@@ -49,11 +49,11 @@ Learning in spatial pooler.
 
 ## Boosting
 
-In order for a column in a Spatial pooler to exist it should be a winning column i.e the overlap score should be above some threshold value while non-winning columns are inhibited from learning. Only the winner columns can update their permanence values. Boosting helps to change the overlap score before the inhibition occurs giving less active columns a better chance to express themselves and diminishing columns that seem overactive . Boosting on better enables the learning of input data i.e it improves the efficiency. In other words we can say that the columns that have low overlap score are boosted so that they can better express themselves and all the columns with higher overlap score are inhibited because they are expressing themselves too much. 
+In order for a column in a Spatial pooler to exist it should be a winning column i.e the overlap score should be above some threshold value while non-winning columns are inhibited from learning. Only the winner columns can update their permanence values. Boosting helps to change the overlap score before the inhibition occurs giving less active columns a better chance to express themselves and diminishing columns that seem overactive . Boosting on better enables the learning of input data i.e it improves the efficiency. In other words we can say that the columns that have low overlap score are boosted so that they can better express themselves and all the columns with higher overlap score are inhibited because they are expressing themselves too much.
 
 ## Temporal pooling
 
-Temporal Pooling enables us to understand the sequential pattern over time. It learns the sequences of the active column from the Spatial Pooler and predicts what spatial pattern in coming next based on the temporal context of each input. 
+Temporal Pooling enables us to understand the sequential pattern over time. It learns the sequences of the active column from the Spatial Pooler and predicts what spatial pattern in coming next based on the temporal context of each input.
 
 There are two primary steps of the Temporal Pooling algorithm. First, which cells within active columns will become active at a certain timestamp second, once the activation has been identified choose a set of cells to be in predictive state i.e those cells which will be firing on the next timestamp. Here , in this biological pyramidal neuron the proximal synapses lead directly to action potentials i.e they enable the learning of the sequence whereas patterns detected on the basal and apical dendrites depolarize the cell, representing predictions i.e cells that will fire at the next timestamp. Generally, at the first timestamp ‘Bursting’ occurs because their is no predictive state and after the first timestamp some cells become predictive which are all connected to the current firing cells. These cells will fire for the next timestamp.
 
@@ -78,7 +78,3 @@ HTM has been implemented to industrial use and applied to various areas such as,
 - HTM for stocks
 
 - Natural language Processing
-
-
-
-
