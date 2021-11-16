@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Theory of Neo-Cortex
+    chapters:
+    - file: docs/HTM_intro/book_summary
+    - file: docs/HTM_intro/ai_pro_con
+  - caption: Hierarchical Temporal Memory
+    chapters:
+    - file: docs/HTM_intro/htm
+    - file: docs/HTM_intro/htm_model
+    - file: docs/HTM_intro/htm_properties
+  - caption: The Science of Anomaly Detection
+    chapters:
+    - file: docs/HTM_intro/htm_anomaly
+    - file: docs/HTM_intro/anomaly_examples
+    - file: docs/HTM_intro/anomaly_comparison
