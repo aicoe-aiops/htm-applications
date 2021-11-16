@@ -18,6 +18,8 @@ tqdm = "*"
 urllib3 = "*"
 prometheus-api-client = "*"
 "path.py" = "*"
+cmake = "*"
+"htm.core" = {editable = true, ref = "master", git = "https://github.com/htm-community/htm.core.git"}
 
 [requires]
 python_version = "3.8"
