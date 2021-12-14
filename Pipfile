@@ -13,6 +13,11 @@ src = {editable = true, path = "./"}
 click = "*"
 awscli = "*"
 python-dotenv = "*"
+datetime = "*"
+tqdm = "*"
+urllib3 = "*"
+prometheus-api-client = "*"
+"path.py" = "*"
 
 [requires]
 python_version = "3.8"
